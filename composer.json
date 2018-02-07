@@ -1,0 +1,17 @@
+{
+  "name": "username/plugin-name",
+  "description": "Plugin description",
+  "type": "wordpress-plugin",
+  "require": {},
+  "require-dev": {
+    "10up/wp_mock": "dev-master",
+    "wp-coding-standards/wpcs": "dev-master",
+    "wimg/php-compatibility": "dev-master"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "PLUGINNAMESPACE\\": "src/"
+    }
+  }
+}

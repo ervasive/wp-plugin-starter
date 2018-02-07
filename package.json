@@ -1,0 +1,27 @@
+{
+  "name": "wp-plugin-starter-neutrino",
+  "version": "0.1.0",
+  "description": "A WordPress plugin starter project based on Neutrino.",
+  "main": "index.js",
+  "scripts": {
+    "build": "neutrino build",
+    "start": "neutrino start",
+    "lint": "neutrino lint",
+    "test": "neutrino test"
+  },
+  "keywords": [],
+  "author": "Author Info",
+  "license": "GPL-2.0-or-later",
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-hot-loader": "^3.1.3"
+  },
+  "devDependencies": {
+    "@neutrinojs/airbnb": "^8.1.1",
+    "@neutrinojs/jest": "^8.1.1",
+    "@neutrinojs/react": "^8.1.1",
+    "neutrino": "^8.1.1"
+  }
+}
